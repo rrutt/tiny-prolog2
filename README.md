@@ -132,10 +132,9 @@ Prolog
 The primitive `outml(s)` display the string `s` without the surrounding quotes. 
 
 ### The "cut"
-As in standard Prolog, when a rule containing a cut (`/`) is used to execute a goal, the execution of this cut prunes the search tree, making the search engine forget the other ways of executing that goal.
+As in standard Prolog, when a rule containing a cut (`!`) is used to execute a goal, the execution of this cut prunes the search tree, making the search engine forget the other ways of executing that goal.
 
 To illustrate how the cut works, consider the following example, taken from the [Prolog II Reference Manual](https://www.prolog-heritage.org/en/m2.html), Section 2.1, page R2-2:
-
 
 ```
 color(red) ->;
@@ -328,7 +327,7 @@ $ fpc -Mtp -FE. src/tprolog2.pas
 
 A Prolog program to execute is a (UTF8 or ISO/IEC 8859-1) text file containing both program rules and queries. When using the default syntax, rules must be written using the Marseille syntax. Each query starts with an arrow `->`and ends with a semicolon `;`. The end of the text file, or, alternatively, an additional `;`, ends the program. Lines in the input file can have any length.
 
-For instance, the file `examples/ProII/permu.pro` contains four rules and two queries:
+For instance, the file `examples/PII/permu.pro` contains four rules and two queries:
 
 ```
 permutation(nil,nil) ->;
