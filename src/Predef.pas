@@ -1,4 +1,8 @@
 {----------------------------------------------------------------------------}
+{$WARN 5023 off : Unit "$1" not used in $2}
+{$WARN 5057 off : Local variable "$1" does not seem to be initialized}
+{$WARN 5024 off : Parameter "$1" not used}
+{$WARN 5027 off : Local variable "$1" is assigned but never used}
 {                                                                            }
 {   Application : PROLOG II                                                  }
 {   File        : Predef.pas                                                 }

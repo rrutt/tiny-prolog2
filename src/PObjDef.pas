@@ -1,4 +1,5 @@
 {----------------------------------------------------------------------------}
+{$WARN 5023 off : Unit "$1" not used in $2}
 {                                                                            }
 {   Application : PROLOG II                                                  }
 {   File        : PObjDef.pas                                                }

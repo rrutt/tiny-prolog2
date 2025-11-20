@@ -1,4 +1,5 @@
 {----------------------------------------------------------------------------}
+{$WARN 6018 off : unreachable code}
 {                                                                            }
 {   Application : PROLOG II                                                  }
 {   File        : Num.pas                                                    }

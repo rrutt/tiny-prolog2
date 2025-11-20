@@ -1,4 +1,7 @@
 {----------------------------------------------------------------------------}
+{$WARN 5023 off : Unit "$1" not used in $2}
+{$WARN 5058 off : Variable "$1" does not seem to be initialized}
+{$WARN 5057 off : Local variable "$1" does not seem to be initialized}
 {                                                                            }
 {   Application : PROLOG II                                                  }
 {   File        : CLI.pas                                                    }

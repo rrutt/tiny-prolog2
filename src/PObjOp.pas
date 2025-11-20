@@ -1,4 +1,5 @@
 {----------------------------------------------------------------------------}
+{$WARN 5025 off : Local variable "$1" not used}
 {                                                                            }
 {   Application : PROLOG II                                                  }
 {   File        : PObjOp.pas                                                 }

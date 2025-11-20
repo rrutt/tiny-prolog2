@@ -30,6 +30,11 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="TProlog2"/>
       </Unit>
+      <Unit>
+        <Filename Value="nCRT\ncrt.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="nCrt"/>
+      </Unit>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

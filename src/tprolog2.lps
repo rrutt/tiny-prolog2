@@ -9,207 +9,350 @@
         <Filename Value="tprolog2.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="TProlog2"/>
-        <TopLine Value="110"/>
-        <CursorPos Y="142"/>
-        <UsageCount Value="26"/>
+        <TopLine Value="48"/>
+        <CursorPos X="7" Y="74"/>
+        <UsageCount Value="29"/>
         <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="PObjDef.pas"/>
         <EditorIndex Value="-1"/>
-        <TopLine Value="183"/>
-        <CursorPos X="51" Y="198"/>
-        <UsageCount Value="9"/>
+        <TopLine Value="184"/>
+        <CursorPos X="51" Y="199"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="Predef.pas"/>
         <EditorIndex Value="-1"/>
-        <TopLine Value="106"/>
-        <UsageCount Value="9"/>
+        <TopLine Value="234"/>
+        <CursorPos X="3" Y="251"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="Init.pas"/>
-        <EditorIndex Value="2"/>
-        <TopLine Value="138"/>
-        <CursorPos Y="155"/>
-        <UsageCount Value="13"/>
-        <Loaded Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="147"/>
+        <CursorPos X="63" Y="180"/>
+        <UsageCount Value="14"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="Engine.pas"/>
-        <EditorIndex Value="3"/>
-        <TopLine Value="956"/>
-        <CursorPos X="36" Y="982"/>
-        <UsageCount Value="13"/>
-        <Loaded Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="131"/>
+        <CursorPos X="21" Y="147"/>
+        <UsageCount Value="14"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="Echo.pas"/>
-        <EditorIndex Value="4"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="34"/>
         <CursorPos Y="58"/>
-        <UsageCount Value="13"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="14"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="CLI.pas"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="69"/>
-        <CursorPos Y="86"/>
-        <UsageCount Value="12"/>
-        <Loaded Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="309"/>
+        <CursorPos X="22" Y="324"/>
+        <UsageCount Value="14"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="Mirror.pas"/>
-        <EditorIndex Value="5"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="15"/>
         <CursorPos Y="38"/>
-        <UsageCount Value="12"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="14"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="CWrites.pas"/>
-        <EditorIndex Value="6"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="19"/>
         <CursorPos Y="48"/>
-        <UsageCount Value="12"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="14"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="Crt2.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="64"/>
+        <CursorPos X="3" Y="81"/>
+        <UsageCount Value="14"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\Lazarus\fpc\3.2.2\source\rtl\win\wininc\defines.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1783"/>
+        <CursorPos X="6" Y="1800"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\Lazarus\fpc\3.2.2\source\packages\rtl-console\src\inc\crth.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="66"/>
+        <CursorPos X="11" Y="83"/>
+        <UsageCount Value="11"/>
+      </Unit>
+      <Unit>
+        <Filename Value="nCRT\ncrt.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="nCrt"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="5"/>
+        <CursorPos X="6" Y="28"/>
+        <UsageCount Value="21"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="nCRT\ncurses.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="180"/>
+        <CursorPos X="28" Y="203"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="nCRT\ncrt.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="208"/>
+        <CursorPos X="11" Y="225"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Debug.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="204"/>
+        <CursorPos X="33" Y="221"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Parse.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Expr.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Reduc.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="434"/>
+        <CursorPos X="3" Y="456"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Unparse.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Encoding.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="PObjProg.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Tokenize.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="PObjStmt.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="PObjComm.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="PObjHead.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="PObjQury.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="PObjRule.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="PObjBter.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="PObjFCVI.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1225"/>
+        <CursorPos X="61" Y="1242"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="PObjSys.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="PObjTerm.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="6"/>
+        <CursorPos X="3" Y="23"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="PObjTok.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="PObjOp.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="PObjIO.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Memory.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="CEdit.pas"/>
         <IsVisibleTab Value="True"/>
-        <EditorIndex Value="7"/>
-        <TopLine Value="139"/>
-        <UsageCount Value="12"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="261"/>
+        <CursorPos X="27" Y="278"/>
+        <UsageCount Value="10"/>
         <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="DateTime.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="67"/>
+        <CursorPos X="28" Y="96"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Num.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Buffer.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="465"/>
+        <CursorPos X="11" Y="473"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Files.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="29"/>
+        <CursorPos X="23" Y="46"/>
+        <UsageCount Value="10"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="Init.pas"/>
-        <Caret Line="187" TopLine="169"/>
-      </Position>
-      <Position>
-        <Filename Value="Init.pas"/>
-        <Caret Line="189" TopLine="169"/>
-      </Position>
+    <JumpHistory HistoryIndex="12">
       <Position>
         <Filename Value="tprolog2.pas"/>
-        <Caret Line="142" TopLine="110"/>
+        <Caret Line="74" Column="7" TopLine="48"/>
       </Position>
       <Position>
-        <Filename Value="tprolog2.pas"/>
-        <Caret Line="141" TopLine="110"/>
+        <Filename Value="CEdit.pas"/>
+        <Caret Line="116" Column="3" TopLine="99"/>
       </Position>
       <Position>
-        <Filename Value="Init.pas"/>
-        <Caret Line="155" TopLine="138"/>
+        <Filename Value="CEdit.pas"/>
+        <Caret Line="152" Column="28" TopLine="136"/>
       </Position>
       <Position>
-        <Filename Value="tprolog2.pas"/>
-        <Caret Line="142" TopLine="110"/>
+        <Filename Value="CEdit.pas"/>
       </Position>
       <Position>
-        <Filename Value="tprolog2.pas"/>
-        <Caret Line="113" TopLine="107"/>
+        <Filename Value="CEdit.pas"/>
+        <Caret Line="116" Column="8" TopLine="99"/>
       </Position>
       <Position>
-        <Filename Value="tprolog2.pas"/>
-        <Caret Line="115" TopLine="107"/>
+        <Filename Value="CEdit.pas"/>
+        <Caret Line="46" Column="8" TopLine="29"/>
       </Position>
       <Position>
-        <Filename Value="tprolog2.pas"/>
-        <Caret Line="116" TopLine="107"/>
+        <Filename Value="CEdit.pas"/>
+        <Caret Line="153" Column="19" TopLine="149"/>
       </Position>
       <Position>
-        <Filename Value="tprolog2.pas"/>
-        <Caret Line="117" TopLine="107"/>
+        <Filename Value="CEdit.pas"/>
+        <Caret Line="667" Column="22" TopLine="652"/>
       </Position>
       <Position>
-        <Filename Value="tprolog2.pas"/>
-        <Caret Line="118" TopLine="107"/>
+        <Filename Value="CEdit.pas"/>
+        <Caret Line="403" Column="20" TopLine="387"/>
       </Position>
       <Position>
-        <Filename Value="tprolog2.pas"/>
-        <Caret Line="122" TopLine="107"/>
+        <Filename Value="CEdit.pas"/>
+        <Caret Line="667" Column="22" TopLine="651"/>
       </Position>
       <Position>
-        <Filename Value="tprolog2.pas"/>
-        <Caret Line="128" TopLine="107"/>
+        <Filename Value="CEdit.pas"/>
+        <Caret Line="581" Column="22" TopLine="565"/>
       </Position>
       <Position>
-        <Filename Value="CLI.pas"/>
-        <Caret Line="86" TopLine="69"/>
+        <Filename Value="CEdit.pas"/>
+        <Caret Line="855" Column="53" TopLine="838"/>
       </Position>
       <Position>
-        <Filename Value="tprolog2.pas"/>
-        <Caret Line="129" TopLine="107"/>
-      </Position>
-      <Position>
-        <Filename Value="tprolog2.pas"/>
-        <Caret Line="130" Column="54" TopLine="107"/>
-      </Position>
-      <Position>
-        <Filename Value="tprolog2.pas"/>
-        <Caret Line="132" TopLine="107"/>
-      </Position>
-      <Position>
-        <Filename Value="tprolog2.pas"/>
-        <Caret Line="133" TopLine="107"/>
-      </Position>
-      <Position>
-        <Filename Value="Echo.pas"/>
-        <Caret Line="51" TopLine="34"/>
-      </Position>
-      <Position>
-        <Filename Value="tprolog2.pas"/>
-        <Caret Line="141" TopLine="110"/>
-      </Position>
-      <Position>
-        <Filename Value="Echo.pas"/>
-        <Caret Line="51" TopLine="34"/>
-      </Position>
-      <Position>
-        <Filename Value="Mirror.pas"/>
-        <Caret Line="38" TopLine="15"/>
-      </Position>
-      <Position>
-        <Filename Value="CWrites.pas"/>
-        <Caret Line="48" TopLine="31"/>
-      </Position>
-      <Position>
-        <Filename Value="Crt2.pas"/>
-        <Caret Line="420" TopLine="403"/>
-      </Position>
-      <Position>
-        <Filename Value="Crt2.pas"/>
-        <Caret Line="437" TopLine="409"/>
-      </Position>
-      <Position>
-        <Filename Value="Crt2.pas"/>
-        <Caret Line="421" TopLine="409"/>
-      </Position>
-      <Position>
-        <Filename Value="Echo.pas"/>
-        <Caret Line="58" TopLine="34"/>
-      </Position>
-      <Position>
-        <Filename Value="tprolog2.pas"/>
-        <Caret Line="142" TopLine="110"/>
-      </Position>
-      <Position>
-        <Filename Value="Crt2.pas"/>
-        <Caret Line="434" Column="55" TopLine="409"/>
-      </Position>
-      <Position>
-        <Filename Value="Crt2.pas"/>
-        <Caret Line="437" TopLine="247"/>
+        <Filename Value="CEdit.pas"/>
+        <Caret Line="153" Column="24" TopLine="136"/>
       </Position>
     </JumpHistory>
     <RunParams>

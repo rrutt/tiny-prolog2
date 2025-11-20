@@ -1,4 +1,6 @@
 {----------------------------------------------------------------------------}
+{$WARN 5028 off : Local $1 "$2" is not used}
+{$WARN 5057 off : Local variable "$1" does not seem to be initialized}
 {                                                                            }
 {   Application : PROLOG II                                                  }
 {   File        : Expr.pas                                                   }

@@ -1,4 +1,5 @@
 {----------------------------------------------------------------------------}
+{$WARN 5028 off : Local $1 "$2" is not used}
 {                                                                            }
 {   Application : PROLOG II                                                  }
 {   File        : Memory.pas                                                 }

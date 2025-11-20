@@ -1,4 +1,6 @@
 {----------------------------------------------------------------------------}
+{$WARN 5023 off : Unit "$1" not used in $2}
+{$WARN 5024 off : Parameter "$1" not used}
 {                                                                            }
 {   Application : PROLOG II                                                  }
 {   File        : PObjProg.pas                                               }

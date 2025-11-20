@@ -37,7 +37,7 @@
 }
 
 Unit Buffer;
-
+{$WARN 5057 off : Local variable "$1" does not seem to be initialized}
 Interface
 
 Uses

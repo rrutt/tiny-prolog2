@@ -1,4 +1,5 @@
 {----------------------------------------------------------------------------}
+{$WARN 5024 off : Parameter "$1" not used}
 {                                                                            }
 {   Application : PROLOG II                                                  }
 {   File        : Files.pas                                                  }

@@ -1,4 +1,6 @@
 {----------------------------------------------------------------------------}
+{$WARN 5057 off : Local variable "$1" does not seem to be initialized}
+{$WARN 5027 off : Local variable "$1" is assigned but never used}
 {                                                                            }
 {   Application : PROLOG II                                                  }
 {   File        : Init.pas                                                   }

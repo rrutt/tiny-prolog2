@@ -1,4 +1,7 @@
 {----------------------------------------------------------------------------}
+{$WARN 5023 off : Unit "$1" not used in $2}
+{$WARN 5057 off : Local variable "$1" does not seem to be initialized}
+{$WARN 6018 off : unreachable code}
 {                                                                            }
 {   Application : PROLOG II                                                  }
 {   File        : CEdit.pas                                                  }
@@ -40,7 +43,7 @@ Unit CEdit;
 Interface
 
 Uses
-  Common,
+  {%H-}Common,
   ShortStr,
   Num,
   Errs,
@@ -49,7 +52,7 @@ Uses
   Mirror,
   Crt,
   Crt2,
-  IChar,
+  {%H-}IChar,
   Buffer;
 
 Const
@@ -110,7 +113,7 @@ Implementation
 Procedure CEditTrace( Ed : TEditor; s : TString );
 Begin
   If TRACE_CEDIT Then
-  Begin
+  {%H-}Begin
     WritelnToTraceFile('CEdit: ' + s);
     CEditDump(Ed);
     CrtDump
@@ -147,7 +150,7 @@ Begin
   With Ed Do
     For i := 1 to Length(Prompt) Do
     Begin
-      ASCIIChar(cc,Prompt[i]);
+      ASCIIChar(cc{%H-},Prompt[i]);
       CrtWriteChar(cc)
     End
 End;
@@ -231,7 +234,7 @@ Begin
     While (i <> Buf.IdxE) Do
     Begin
       i := NextIdx(Buf,i);
-      BufGetCharAt(cc,Buf,i);
+      BufGetCharAt(cc{%H-},Buf,i);
       { wrap before this char? }
       If CrtWraps(b,cc) Then
       Begin
@@ -272,7 +275,7 @@ Begin
     Begin
       i := NextIdx(Buf,i);
       { count bytes of char i }
-      BufGetCharAt(cc,Buf,i);
+      BufGetCharAt(cc{%H-},Buf,i);
       NbBytes := NbBytes + CrtCharWrapSize(cc);
       { if we are not done yet, detect wrap by looking at the next char }
       If i <> Buf.IdxW Then
@@ -307,7 +310,7 @@ Begin
     While (i <> Buf.IdxE) And Not Wrap Do
     Begin
       { look ahead one char to test for wrapping after char i }
-      BufGetChar(cc,Buf,i,1);
+      BufGetChar(cc{%H-},Buf,i,1);
       Wrap := CrtWraps(b,cc);
       If Not Wrap Then
       Begin
@@ -328,7 +331,7 @@ Var
 Begin
   With Ed Do
   Begin
-    BufGetCharAt(cc,Buf,Buf.IdxW);
+    BufGetCharAt(cc{%H-},Buf,Buf.IdxW);
     { in case of wrap, meaning the char at IdxW belongs to the next line,
      the active line becomes the next line }
     Updated := CrtWraps(NbBytes,cc);
@@ -357,7 +360,7 @@ Begin
     { move up? }
     Updated := NbBytes = 0;
     If Updated Then
-      CEditStateComputeActiveLine(Ed,n)
+      CEditStateComputeActiveLine(Ed,n{%H-})
   End
 End;
 
@@ -397,7 +400,7 @@ Begin
   With Ed Do
   Begin
     { save the char up for deletion }
-    BufGetCharAt(cc,Buf,Buf.IdxW);
+    BufGetCharAt(cc{%H-},Buf,Buf.IdxW);
     { update the multibyte char counter }
     If IsMultibyte(cc) Then
       NbMulti := NbMulti - 1;
@@ -436,7 +439,7 @@ Begin
   Ed.Buf := B;
   { sync state }
   Ed.NbMulti := BufCountMultibyteChars(Ed.Buf);
-  CEditStateComputeActiveLine(Ed,n);
+  CEditStateComputeActiveLine(Ed,n{%H-});
   CEditComputeNumberOfLines(Ed);
   { compute new Y position; do not scroll unless necessary, that is, show more
     lines and show the active line }
@@ -547,7 +550,7 @@ Begin
     While (i <> Buf.IdxE) Do
     Begin
       i := NextIdx(Buf,i);
-      BufGetCharAt(cc,Buf,i);
+      BufGetCharAt(cc{%H-},Buf,i);
       If CrtWraps(b,cc) Then { must wrap before displaying cc }
       Begin
         CrtClrEol; { remove spurious chars at the end of the current line }
@@ -575,7 +578,7 @@ Begin
     While (i <> j) Do
     Begin
       i := NextIdx(Buf,i);
-      BufGetCharAt(cc,Buf,i);
+      BufGetCharAt(cc{%H-},Buf,i);
       CrtWrite(cc)
     End
 End;
@@ -661,7 +664,7 @@ Begin
     While (i <> Buf.IdxE) Do
     Begin
       i := NextIdx(Buf,i);
-      BufGetCharAt(cc,Buf,i);
+      BufGetCharAt(cc{%H-},Buf,i);
       If CrtWraps(b,cc) Then { must wrap before displaying cc }
       Begin
         If vis Then
@@ -824,7 +827,7 @@ Var
 Begin
   CEditBackupLayout(Ed);
   { insert the char at write index }
-  CEditStateInsert(Ed,cc,ActiveDown);
+  CEditStateInsert(Ed,cc,ActiveDown{%H-});
   { update display, minimizing cursor movements }
   If ActiveDown Then
     CEditWriteln(Ed);
@@ -849,7 +852,7 @@ Begin
     { move right the write index }
     BufWriteCursorMoveToNext(Buf);
     { update active line }
-    CEditStateUpdateActiveAfterForward(Ed,ActiveDown);
+    CEditStateUpdateActiveAfterForward(Ed,ActiveDown{%H-});
     { update the screen }
     If ActiveDown Then
       CEditMoveDown(Ed)
@@ -872,7 +875,7 @@ Begin
   End;
   CEditBackupLayout(Ed);
   { delete the char at write index }
-  CEditStateDelete(Ed,ActiveUp);
+  CEditStateDelete(Ed,ActiveUp{%H-});
   { update display }
   If ActiveUp Then
     CEditMoveUp(Ed,True)
@@ -899,11 +902,11 @@ Begin
     If BufWriteCursorIsAtStart(Buf) Then
       Exit;
     { save char before moving the write index }
-    BufGetCharAt(cc,Buf,Buf.IdxW);
+    BufGetCharAt(cc{%H-},Buf,Buf.IdxW);
     { move left the write index }
     BufWriteCursorMoveToPrev(Buf);
     { update active line }
-    CEditStateUpdateActiveAfterBackward(Ed,cc,ActiveUp);
+    CEditStateUpdateActiveAfterBackward(Ed,cc,ActiveUp{%H-});
     { update the screen }
     If ActiveUp Then
       CEditMoveUp(Ed,False)
