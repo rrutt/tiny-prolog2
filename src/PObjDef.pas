@@ -195,7 +195,7 @@ Implementation
 
 { some getters need to be located here to break circular references of units;
  the typical case is when a member implements a has(O1,O2) relation while a
- "back pointer", member of O2, points back to O1 )
+ "back pointer", member of O2, points back to O1 }
 
 { statement's world }
 Function Statement_GetWorld( S : StmtPtr ) : WorldPtr;

@@ -1,0 +1,11 @@
+backup/
+lib/
+
+console
+echo.txt
+trace.txt
+
+*.exe
+
+!bin/tiny-prolog2
+!bin/*.exe
