@@ -6,6 +6,7 @@ echo.txt
 trace.txt
 
 *.exe
+src/tprolog2
 
 !bin/tiny-prolog2
 !bin/*.exe

@@ -9,10 +9,20 @@
         <Filename Value="tprolog2.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="TProlog2"/>
-        <TopLine Value="48"/>
-        <CursorPos X="7" Y="74"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="118"/>
+        <CursorPos Y="129"/>
         <UsageCount Value="29"/>
         <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="nCRT\ncrt.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="nCrt"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="5"/>
+        <CursorPos X="6" Y="28"/>
+        <UsageCount Value="21"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
@@ -100,16 +110,6 @@
         <TopLine Value="66"/>
         <CursorPos X="11" Y="83"/>
         <UsageCount Value="11"/>
-      </Unit>
-      <Unit>
-        <Filename Value="nCRT\ncrt.pp"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="nCrt"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="5"/>
-        <CursorPos X="6" Y="28"/>
-        <UsageCount Value="21"/>
-        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="nCRT\ncurses.pp"/>
@@ -263,13 +263,8 @@
       </Unit>
       <Unit>
         <Filename Value="CEdit.pas"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="261"/>
-        <CursorPos X="27" Y="278"/>
+        <EditorIndex Value="-1"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
-        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="DateTime.pas"/>
@@ -302,57 +297,65 @@
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="12">
+    <JumpHistory HistoryIndex="14">
       <Position>
         <Filename Value="tprolog2.pas"/>
         <Caret Line="74" Column="7" TopLine="48"/>
       </Position>
       <Position>
-        <Filename Value="CEdit.pas"/>
-        <Caret Line="116" Column="3" TopLine="99"/>
+        <Filename Value="tprolog2.pas"/>
+        <Caret Line="141" TopLine="116"/>
       </Position>
       <Position>
-        <Filename Value="CEdit.pas"/>
-        <Caret Line="152" Column="28" TopLine="136"/>
+        <Filename Value="tprolog2.pas"/>
+        <Caret Line="121" Column="28" TopLine="118"/>
       </Position>
       <Position>
-        <Filename Value="CEdit.pas"/>
+        <Filename Value="tprolog2.pas"/>
+        <Caret Line="141" TopLine="117"/>
       </Position>
       <Position>
-        <Filename Value="CEdit.pas"/>
-        <Caret Line="116" Column="8" TopLine="99"/>
+        <Filename Value="tprolog2.pas"/>
+        <Caret Line="142" TopLine="66"/>
       </Position>
       <Position>
-        <Filename Value="CEdit.pas"/>
-        <Caret Line="46" Column="8" TopLine="29"/>
+        <Filename Value="tprolog2.pas"/>
       </Position>
       <Position>
-        <Filename Value="CEdit.pas"/>
-        <Caret Line="153" Column="19" TopLine="149"/>
+        <Filename Value="tprolog2.pas"/>
+        <Caret Line="141" TopLine="117"/>
       </Position>
       <Position>
-        <Filename Value="CEdit.pas"/>
-        <Caret Line="667" Column="22" TopLine="652"/>
+        <Filename Value="tprolog2.pas"/>
+        <Caret Line="142" TopLine="117"/>
       </Position>
       <Position>
-        <Filename Value="CEdit.pas"/>
-        <Caret Line="403" Column="20" TopLine="387"/>
+        <Filename Value="tprolog2.pas"/>
+        <Caret Line="113" TopLine="100"/>
       </Position>
       <Position>
-        <Filename Value="CEdit.pas"/>
-        <Caret Line="667" Column="22" TopLine="651"/>
+        <Filename Value="tprolog2.pas"/>
+        <Caret Line="115" TopLine="100"/>
       </Position>
       <Position>
-        <Filename Value="CEdit.pas"/>
-        <Caret Line="581" Column="22" TopLine="565"/>
+        <Filename Value="tprolog2.pas"/>
+        <Caret Line="116" TopLine="100"/>
       </Position>
       <Position>
-        <Filename Value="CEdit.pas"/>
-        <Caret Line="855" Column="53" TopLine="838"/>
+        <Filename Value="tprolog2.pas"/>
+        <Caret Line="117" TopLine="100"/>
       </Position>
       <Position>
-        <Filename Value="CEdit.pas"/>
-        <Caret Line="153" Column="24" TopLine="136"/>
+        <Filename Value="tprolog2.pas"/>
+        <Caret Line="118" TopLine="100"/>
+      </Position>
+      <Position>
+        <Filename Value="tprolog2.pas"/>
+        <Caret Line="122" TopLine="100"/>
+      </Position>
+      <Position>
+        <Filename Value="tprolog2.pas"/>
+        <Caret Line="128" TopLine="116"/>
       </Position>
     </JumpHistory>
     <RunParams>
@@ -360,18 +363,22 @@
       <Modes ActiveMode="default">
         <Mode Name="default">
           <local>
-            <CommandLineParams Value="examples/PII/permu.pro"/>
-            <WorkingDirectory Value="C:\github\tiny-prolog2"/>
+            <CommandLineParams Value="examples\PII\permu.pro"/>
+            <WorkingDirectory Value="\home\ubuntu\github\tiny-prolog2"/>
           </local>
         </Mode>
       </Modes>
     </RunParams>
     <HistoryLists>
-      <List Name="WorkingDirectory" Type="File" Count="2">
-        <Item1 Value="C:\github\tiny-prolog2"/>
+      <List Name="WorkingDirectory" Type="File" Count="4">
+        <Item1 Value="/home/ubuntu/github/tiny-prolog2"/>
+        <Item2 Value="C:/github\tiny-prolog2/home/ubuntu/github/tiny-prolog2"/>
+        <Item3 Value="C:\github\tiny-prolog2"/>
+        <Item4 Value="C:/github/tiny-prolog2"/>
       </List>
-      <List Name="LaunchingApplication" Type="File" Count="1">
-        <Item1 Value="C:\WINDOWS\system32\cmd.exe /C ${TargetCmdLine}"/>
+      <List Name="LaunchingApplication" Type="File" Count="3">
+        <Item2 Value="C:\WINDOWS\system32\cmd.exe /C ${TargetCmdLine}"/>
+        <Item3 Value="/usr/bin/gnome-terminal -t &apos;Lazarus Run Output&apos; -e &apos;$(LazarusDir)/tools/runwait.sh $(TargetCmdLine)&apos;"/>
       </List>
       <List Name="CommandLineParameters" Count="4">
         <Item1 Value="examples/PII/permu.pro"/>
