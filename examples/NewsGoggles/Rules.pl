@@ -169,7 +169,8 @@ all_subscriber_feeds_for_list([S | Tail], [subscriber_feed(S, AList) | TailList]
 	all_subscriber_feeds_for_list(Tail, TailList).
 
 is_subscriber(S) :-
-	subscriber_likes(S, _);  % Semi-colon means OR.
+	subscriber_likes(S, _).
+is_subscriber(S) :-
 	subscriber_allows(S, _, _).
 
 
