@@ -9,18 +9,28 @@
         <Filename Value="tprolog2.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="TProlog2"/>
-        <TopLine Value="48"/>
-        <CursorPos X="7" Y="74"/>
-        <UsageCount Value="29"/>
+        <TopLine Value="110"/>
+        <CursorPos Y="142"/>
+        <UsageCount Value="30"/>
         <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="nCRT\ncrt.pp"/>
+        <UnitName Value="nCrt"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="5"/>
+        <CursorPos X="6" Y="28"/>
+        <UsageCount Value="21"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="PObjDef.pas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="184"/>
-        <CursorPos X="51" Y="199"/>
-        <UsageCount Value="10"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="42"/>
+        <CursorPos X="23" Y="62"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
@@ -41,10 +51,12 @@
       </Unit>
       <Unit>
         <Filename Value="Engine.pas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="131"/>
-        <CursorPos X="21" Y="147"/>
-        <UsageCount Value="14"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="207"/>
+        <CursorPos X="18" Y="212"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
@@ -73,18 +85,20 @@
       </Unit>
       <Unit>
         <Filename Value="CWrites.pas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="19"/>
-        <CursorPos Y="48"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="35"/>
+        <CursorPos X="22" Y="55"/>
         <UsageCount Value="14"/>
+        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="Crt2.pas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="64"/>
-        <CursorPos X="3" Y="81"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="425"/>
+        <CursorPos X="46" Y="425"/>
         <UsageCount Value="14"/>
+        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
@@ -100,16 +114,6 @@
         <TopLine Value="66"/>
         <CursorPos X="11" Y="83"/>
         <UsageCount Value="11"/>
-      </Unit>
-      <Unit>
-        <Filename Value="nCRT\ncrt.pp"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="nCrt"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="5"/>
-        <CursorPos X="6" Y="28"/>
-        <UsageCount Value="21"/>
-        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="nCRT\ncurses.pp"/>
@@ -169,8 +173,12 @@
       </Unit>
       <Unit>
         <Filename Value="PObjProg.pas"/>
-        <EditorIndex Value="-1"/>
-        <UsageCount Value="10"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="505"/>
+        <CursorPos X="40" Y="515"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
@@ -181,8 +189,12 @@
       </Unit>
       <Unit>
         <Filename Value="PObjStmt.pas"/>
-        <EditorIndex Value="-1"/>
-        <UsageCount Value="10"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="9"/>
+        <TopLine Value="66"/>
+        <CursorPos Y="85"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
@@ -231,10 +243,12 @@
       </Unit>
       <Unit>
         <Filename Value="PObjTerm.pas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="6"/>
-        <CursorPos X="3" Y="23"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="236"/>
+        <CursorPos X="3" Y="244"/>
         <UsageCount Value="10"/>
+        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
@@ -257,19 +271,20 @@
       </Unit>
       <Unit>
         <Filename Value="Memory.pas"/>
-        <EditorIndex Value="-1"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="51"/>
+        <CursorPos X="3" Y="62"/>
         <UsageCount Value="10"/>
+        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="CEdit.pas"/>
-        <IsVisibleTab Value="True"/>
+        <IsPartOfProject Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="261"/>
-        <CursorPos X="27" Y="278"/>
-        <UsageCount Value="10"/>
+        <TopLine Value="16"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
-        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
         <Filename Value="DateTime.pas"/>
@@ -302,57 +317,125 @@
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="12">
+    <JumpHistory HistoryIndex="29">
       <Position>
-        <Filename Value="tprolog2.pas"/>
-        <Caret Line="74" Column="7" TopLine="48"/>
+        <Filename Value="Engine.pas"/>
+        <Caret Line="202" Column="67" TopLine="196"/>
       </Position>
       <Position>
-        <Filename Value="CEdit.pas"/>
-        <Caret Line="116" Column="3" TopLine="99"/>
+        <Filename Value="Engine.pas"/>
+        <Caret Line="261" Column="50" TopLine="245"/>
       </Position>
       <Position>
-        <Filename Value="CEdit.pas"/>
-        <Caret Line="152" Column="28" TopLine="136"/>
+        <Filename Value="PObjProg.pas"/>
+        <Caret Line="108" Column="19" TopLine="92"/>
       </Position>
       <Position>
-        <Filename Value="CEdit.pas"/>
+        <Filename Value="Engine.pas"/>
+        <Caret Line="261" Column="27" TopLine="245"/>
       </Position>
       <Position>
-        <Filename Value="CEdit.pas"/>
-        <Caret Line="116" Column="8" TopLine="99"/>
+        <Filename Value="Engine.pas"/>
+        <Caret Line="231" Column="34" TopLine="210"/>
       </Position>
       <Position>
-        <Filename Value="CEdit.pas"/>
-        <Caret Line="46" Column="8" TopLine="29"/>
+        <Filename Value="PObjProg.pas"/>
+        <Caret Line="113" Column="34" TopLine="97"/>
       </Position>
       <Position>
-        <Filename Value="CEdit.pas"/>
-        <Caret Line="153" Column="19" TopLine="149"/>
+        <Filename Value="PObjProg.pas"/>
+        <Caret Line="540" Column="53" TopLine="533"/>
       </Position>
       <Position>
-        <Filename Value="CEdit.pas"/>
-        <Caret Line="667" Column="22" TopLine="652"/>
+        <Filename Value="Engine.pas"/>
+        <Caret Line="212" Column="18" TopLine="207"/>
       </Position>
       <Position>
-        <Filename Value="CEdit.pas"/>
-        <Caret Line="403" Column="20" TopLine="387"/>
+        <Filename Value="CWrites.pas"/>
+        <Caret Line="38" Column="24" TopLine="19"/>
       </Position>
       <Position>
-        <Filename Value="CEdit.pas"/>
-        <Caret Line="667" Column="22" TopLine="651"/>
+        <Filename Value="CWrites.pas"/>
+        <Caret Line="110" Column="9" TopLine="88"/>
       </Position>
       <Position>
-        <Filename Value="CEdit.pas"/>
-        <Caret Line="581" Column="22" TopLine="565"/>
+        <Filename Value="CWrites.pas"/>
+        <Caret Line="55" Column="22" TopLine="35"/>
       </Position>
       <Position>
-        <Filename Value="CEdit.pas"/>
-        <Caret Line="855" Column="53" TopLine="838"/>
+        <Filename Value="Crt2.pas"/>
+        <Caret Line="135" Column="30" TopLine="118"/>
       </Position>
       <Position>
-        <Filename Value="CEdit.pas"/>
-        <Caret Line="153" Column="24" TopLine="136"/>
+        <Filename Value="Crt2.pas"/>
+        <Caret Line="440" Column="3" TopLine="431"/>
+      </Position>
+      <Position>
+        <Filename Value="Crt2.pas"/>
+        <Caret Line="449" Column="8" TopLine="431"/>
+      </Position>
+      <Position>
+        <Filename Value="Crt2.pas"/>
+        <Caret Line="452" Column="16" TopLine="431"/>
+      </Position>
+      <Position>
+        <Filename Value="Crt2.pas"/>
+        <Caret Line="442" Column="49" TopLine="431"/>
+      </Position>
+      <Position>
+        <Filename Value="Crt2.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="Crt2.pas"/>
+        <Caret Line="449" Column="8" TopLine="421"/>
+      </Position>
+      <Position>
+        <Filename Value="PObjProg.pas"/>
+        <Caret Line="541" Column="53" TopLine="526"/>
+      </Position>
+      <Position>
+        <Filename Value="PObjProg.pas"/>
+        <Caret Line="113" Column="34" TopLine="97"/>
+      </Position>
+      <Position>
+        <Filename Value="PObjProg.pas"/>
+        <Caret Line="541" Column="53" TopLine="537"/>
+      </Position>
+      <Position>
+        <Filename Value="PObjProg.pas"/>
+        <Caret Line="522" Column="24" TopLine="502"/>
+      </Position>
+      <Position>
+        <Filename Value="PObjProg.pas"/>
+        <Caret Line="519" Column="47" TopLine="505"/>
+      </Position>
+      <Position>
+        <Filename Value="PObjDef.pas"/>
+        <Caret Line="51" Column="22" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="PObjDef.pas"/>
+        <Caret Line="75" Column="23" TopLine="58"/>
+      </Position>
+      <Position>
+        <Filename Value="PObjDef.pas"/>
+        <Caret Line="50" Column="24" TopLine="33"/>
+      </Position>
+      <Position>
+        <Filename Value="PObjDef.pas"/>
+        <Caret Line="62" Column="23" TopLine="42"/>
+      </Position>
+      <Position>
+        <Filename Value="PObjProg.pas"/>
+        <Caret Line="531" Column="44" TopLine="505"/>
+      </Position>
+      <Position>
+        <Filename Value="PObjProg.pas"/>
+        <Caret Line="515" Column="40" TopLine="505"/>
+      </Position>
+      <Position>
+        <Filename Value="PObjTerm.pas"/>
+        <Caret Line="91" Column="28" TopLine="74"/>
       </Position>
     </JumpHistory>
     <RunParams>
@@ -360,43 +443,26 @@
       <Modes ActiveMode="default">
         <Mode Name="default">
           <local>
-            <CommandLineParams Value="examples/PII/permu.pro"/>
+            <CommandLineParams Value="examples/NewsGoggles/Articles.pl"/>
             <WorkingDirectory Value="C:\github\tiny-prolog2"/>
           </local>
         </Mode>
       </Modes>
     </RunParams>
     <HistoryLists>
-      <List Name="WorkingDirectory" Type="File" Count="2">
+      <List Name="WorkingDirectory" Type="File" Count="1">
         <Item1 Value="C:\github\tiny-prolog2"/>
       </List>
       <List Name="LaunchingApplication" Type="File" Count="1">
         <Item1 Value="C:\WINDOWS\system32\cmd.exe /C ${TargetCmdLine}"/>
       </List>
-      <List Name="CommandLineParameters" Count="4">
-        <Item1 Value="examples/PII/permu.pro"/>
-        <Item2 Value="./examples/ProII/permu.pro"/>
-        <Item3 Value="examples/ProII/permu.pro"/>
-        <Item4 Value="../examples/ProII/permu.pro"/>
+      <List Name="CommandLineParameters" Count="5">
+        <Item1 Value="examples/NewsGoggles/Articles.pl"/>
+        <Item2 Value="examples/PII/permu.pro"/>
+        <Item3 Value="./examples/ProII/permu.pro"/>
+        <Item4 Value="examples/ProII/permu.pro"/>
+        <Item5 Value="../examples/ProII/permu.pro"/>
       </List>
     </HistoryLists>
   </ProjectSession>
-  <Debugging>
-    <BreakPoints>
-      <Item>
-        <Kind Value="bpkSource"/>
-        <WatchScope Value="wpsLocal"/>
-        <WatchKind Value="wpkWrite"/>
-        <Source Value="tprolog2.pas"/>
-        <Line Value="141"/>
-      </Item>
-      <Item>
-        <Kind Value="bpkSource"/>
-        <WatchScope Value="wpsLocal"/>
-        <WatchKind Value="wpkWrite"/>
-        <Source Value="tprolog2.pas"/>
-        <Line Value="142"/>
-      </Item>
-    </BreakPoints>
-  </Debugging>
 </CONFIG>

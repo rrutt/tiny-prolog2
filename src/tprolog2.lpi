@@ -31,9 +31,24 @@
         <UnitName Value="TProlog2"/>
       </Unit>
       <Unit>
-        <Filename Value="nCRT\ncrt.pp"/>
+        <Filename Value="PObjDef.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="nCrt"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Engine.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="PObjProg.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="PObjStmt.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="CEdit.pas"/>
+        <IsPartOfProject Value="True"/>
       </Unit>
     </Units>
   </ProjectOptions>
