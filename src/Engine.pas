@@ -617,7 +617,7 @@ Var
 
         { if any, reduce the equations given as a system in the rule itself; 
           this must be done each time the rule is applied to take into account 
-          global assignments; e.g. "go -> { test=1 )" may succeed or fail, 
+          global assignments; e.g. "go -> ( test=1 )" may succeed or fail,
           depending on the value of the identifier "test" if any; this value 
           will be 1 if a goal "assign(test,1)" has been cleared before;
           this reduction must be done *before* the rule is copied, such that
@@ -691,7 +691,7 @@ Begin { clock }
   { try to reduce the system in the query, if any, and fail if it has 
     no solutions; note that the system is reduced before clearing any 
     goal, including goals that sets global variables; thus a query 
-    like "assign(aa,1) { aa = 1 )" will fail right away  }
+    like "assign(aa,1) ( aa = 1 )" will fail right away  }
   If Query_GetSys(Q) <> Nil Then
     If Not ReduceEquations(Query_GetSys(Q),GetDebugStream(P)) Then
       Exit;
